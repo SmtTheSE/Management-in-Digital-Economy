@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Leadership and Motivation for High-Performing Teams</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="presentation-container">
+        <div id="slide-counter">Slide <span id="current-slide">1</span> of 16</div>
+
+        <!-- Navigation Controls -->
+        <div id="nav-controls">
+            <button id="prev-btn" class="nav-btn"><i class="fas fa-arrow-left"></i> Previous</button>
+            <button id="next-btn" class="nav-btn">Next <i class="fas fa-arrow-right"></i></button>
+        </div>
+
+        <!-- Slides Container -->
+        <div id="slides-container">
+            <!-- SLIDE 1: TITLE SLIDE -->
+            <div class="slide active" id="slide-1">
+                <div class="header-icon"><i class="fas fa-crown"></i></div>
+                <div class="content">
+                    <h1>Unit 12: Management in the Digital Economy</h1>
+                    <h2>Digital Leadership and Motivation for High-Performing Teams</h2>
+                    <p>Group 1 - Fall 2025</p>
+                    <p>[Group Members' Names and IDs]</p>
+                    <p>Date: [To be filled]</p>
+
+                    <div class="visualization">
+                        <img src="https://blogimage.vantagecircle.com/content/images/2020/11/high-performing-teams.png"
+                            alt="Digital Leadership Concept" class="visual-img">
+                    </div>
+                </div>
+                
+                <div class="speaker-notes">
+                    Welcome to our presentation on Digital Leadership and Motivation for High-Performing Teams. Today
+                    we'll explore evidence-based strategies to address challenges of low motivation and inconsistent
+                    leadership in scaling tech start-ups. Our analysis draws on digital-led management approaches,
+                    leadership styles, motivational theories, and reflective models to provide practical recommendations
+                    for building a motivated, innovative workforce. We'll use real-world examples from successful
+                    companies like Microsoft, Spotify, Netflix, Google, and Atlassian to illustrate our points.
+                </div>
+            </div>
+
+            <!-- SLIDE 2: INTRODUCTION -->
+            <div class="slide" id="slide-2">
+                <div class="header-icon"><i class="fas fa-rocket"></i></div>
+                <div class="content">
+                    <h2>Introduction</h2>
+                    <ul>
+                        <li><i class="fas fa-bullseye"></i> Purpose: Digital-led management and leadership strategies
+                        </li>
+                        <li><i class="fas fa-exclamation-triangle"></i> Context: Scaling tech start-up facing low
+                            motivation & inconsistent leadership</li>
+                        <li><i class="fas fa-sitemap"></i> Structure: Management approaches → Leadership styles →
+                            Motivational theories → Reflection models → Recommendations</li>
+                        <li><i class="fas fa-trophy"></i> Objective: Create high-performing digital team culture</li>
+                        <li><i class="fas fa-lightbulb"></i> Real-world examples: Microsoft, Spotify, Netflix, Google,
+                            Atlassian</li>
+                    </ul>
+
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Introduction visualization" class="visual-img">
+                    </div>
+                </div>
+
+                <div class="speaker-notes">
+                    Our presentation addresses the critical challenges facing modern tech start-ups: low employee
+                    motivation and inconsistent leadership practices. We'll examine how digital-led approaches can
+                    transform organizational culture and performance. Through a systematic analysis of management
+                    approaches, leadership styles, motivational theories, and reflective practices, we'll provide
+                    actionable recommendations for building a high-performing digital team culture that drives
+                    innovation and sustainable growth. We'll reference real-world examples including Microsoft's
+                    transformation under Satya Nadella, Spotify's squad model, Netflix's culture of freedom and
+                    responsibility, Google's innovation practices, and Atlassian's team collaboration tools.
+                </div>
+            </div>
+
+            <!-- SLIDE 3: DIGITAL-LED MANAGEMENT APPROACHES COMPARISON -->
+            <div class="slide" id="slide-3">
+                <div class="header-icon"><i class="fas fa-cogs"></i></div>
+                <div class="content">
+                    <h2>Digital-Led Management Approaches Comparison</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Management Approaches Comparison" class="visual-img">
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Approach</th>
+                                <th>Focus</th>
+                                <th>Key Benefits</th>
+                                <th>Implementation</th>
+                                <th>Real-World Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><i class="fas fa-project-diagram"></i> Systems</td>
+                                <td>Interconnected digital processes</td>
+                                <td>Integration & efficiency</td>
+                                <td>Digital workflow platforms</td>
+                                <td>Spotify's squad model</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-random"></i> Contingency</td>
+                                <td>Situational adaptation</td>
+                                <td>Flexibility & responsiveness</td>
+                                <td>AI-driven analytics</td>
+                                <td>Netflix's adaptive culture</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-users"></i> Behavioural</td>
+                                <td>People-centered practices</td>
+                                <td>Engagement & collaboration</td>
+                                <td>Communication tools</td>
+                                <td>Google's People Operations</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-calculator"></i> Decision-Theory</td>
+                                <td>Data-driven decisions</td>
+                                <td>Accuracy & objectivity</td>
+                                <td>Analytics & BI tools</td>
+                                <td>Amazon's decision framework</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="speaker-notes">
+                    In the digital age, management approaches must evolve to address new challenges. The Systems
+                    Approach focuses on interconnected digital processes, promoting integration and efficiency through
+                    platforms like ERP and workflow automation tools. Spotify exemplifies this with their squad model,
+                    organizing teams into autonomous, cross-functional units. The Contingency Approach emphasizes
+                    adaptability, using AI and analytics to respond dynamically to changing conditions. Netflix
+                    exemplifies this with their culture of "freedom and responsibility" that adapts to situational
+                    factors. The Behavioural Approach prioritizes people-centered practices, leveraging communication
+                    tools to enhance engagement and collaboration, as seen in Google's People Operations. The
+                    Decision-Theory Approach relies on data-driven decision making using business intelligence tools,
+                    improving accuracy and reducing bias, similar to Amazon's approach to decision-making. For tech
+                    start-ups, a hybrid approach combining systems integration with behavioral focus often yields
+                    optimal results.
+                </div>
+            </div>
+
+            <!-- SLIDE 4: SYSTEMS APPROACH IN DIGITAL CONTEXT -->
+            <div class="slide" id="slide-4">
+                <div class="header-icon"><i class="fas fa-project-diagram"></i></div>
+                <div class="content">
+                    <h2>Systems Approach in Digital Context</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Systems Approach Visualization" class="visual-img">
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-globe-americas"></i> Holistic view of digital organization</li>
+                        <li><i class="fas fa-link"></i> Interconnected digital tools and platforms</li>
+                        <li><i class="fas fa-sync-alt"></i> Feedback loops for continuous improvement</li>
+                        <li><i class="fas fa-music"></i> Example: Spotify's squad model</li>
+                        <li><i class="fab fa-microsoft"></i> Additional example: Microsoft's Teams integration</li>
+                    </ul>
+                </div>
+
+                <div class="speaker-notes">
+                    The Systems Approach in digital contexts treats the organization as an interconnected set of
+                    processes and technologies. This approach emphasizes how changes in one area affect the entire
+                    system. In digital environments, this manifests as integrated platforms, automated workflows, and
+                    real-time data sharing. Spotify's squad model exemplifies this approach, with autonomous teams
+                    interconnected through shared goals and communication protocols. Microsoft's integration of Teams
+                    with Office 365 tools demonstrates how systems thinking creates seamless workflows. For scaling
+                    start-ups, this approach ensures alignment while maintaining agility. The feedback loops inherent in
+                    digital systems enable continuous improvement and adaptation to changing market conditions.
+                </div>
+            </div>
+
+            <!-- SLIDE 5: CONTINGENCY APPROACH IN DIGITAL LEADERSHIP -->
+            <div class="slide" id="slide-5">
+                <div class="header-icon"><i class="fas fa-random"></i></div>
+                <div class="content">
+                    <h2>Contingency Approach in Digital Leadership</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Contingency Approach Visualization" class="visual-img">
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-sliders-h"></i> Adaptable to situational factors</li>
+                        <li><i class="fas fa-chart-line"></i> Leverages real-time data</li>
+                        <li><i class="fas fa-microchip"></i> Technology-dependent solutions</li>
+                        <li><i class="fab fa-netflix"></i> Example: Netflix's adaptive culture</li>
+                        <li><i class="fab fa-airbnb"></i> Additional example: Airbnb's pandemic response</li>
+                    </ul>
+                </div>
+
+                <div class="speaker-notes">
+                    The Contingency Approach recognizes that no single leadership style fits all situations. In digital
+                    environments, this means adapting leadership practices based on real-time data and situational
+                    factors. Netflix exemplifies this with their adaptive culture that changes based on market
+                    conditions, team capabilities, and strategic objectives, as outlined in their famous culture deck.
+                    Airbnb's response to the pandemic also demonstrates contingency leadership, quickly pivoting from
+                    experiences to online experiences when travel was restricted. For tech start-ups, this approach
+                    offers flexibility to pivot strategies quickly. The abundance of real-time data in digital
+                    environments enhances contingency planning, allowing leaders to adjust approaches based on
+                    performance metrics, market feedback, and team dynamics.
+                </div>
+            </div>
+
+            <!-- SLIDE 6: DIGITAL LEADERSHIP STYLES ANALYSIS -->
+            <div class="slide" id="slide-6">
+                <div class="header-icon"><i class="fas fa-star"></i></div>
+                <div class="content">
+                    <h2>Digital Leadership Styles Analysis</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1560363194-765488cc1e4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Leadership Styles Visualization" class="visual-img">
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Leadership Style</th>
+                                <th>Characteristics</th>
+                                <th>Impact on Performance</th>
+                                <th>Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><i class="fas fa-bolt"></i> Transformational</td>
+                                <td>Insipires innovation & change</td>
+                                <td>High engagement & creativity</td>
+                                <td>Satya Nadella (Microsoft)</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-comments"></i> Participative</td>
+                                <td>Collaborative decision-making</td>
+                                <td>Enhanced team buy-in</td>
+                                <td>GitHub's open development</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-eye"></i> Visionary</td>
+                                <td>Future-focused strategy</td>
+                                <td>Clear direction & alignment</td>
+                                <td>Elon Musk (Tesla/SpaceX)</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-laptop"></i> Additional example</td>
+                                <td>Digital-first approach</td>
+                                <td>Rapid adaptation</td>
+                                <td>Sundar Pichai (Google)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="speaker-notes">
+                    Digital leadership styles must address the unique challenges of technology-driven organizations.
+                    Transformational leaders inspire innovation and change, fostering a culture of experimentation and
+                    learning. Satya Nadella at Microsoft exemplifies this, shifting the company culture from
+                    "know-it-all" to "learn-it-all" and focusing on cloud transformation. Participative leaders engage
+                    teams in decision-making, particularly valuable in technical environments where expertise is
+                    distributed. GitHub's open development model demonstrates this approach. Visionary leaders provide
+                    clear direction in rapidly changing digital landscapes. Elon Musk at Tesla and SpaceX exemplifies
+                    this with his vision of sustainable transport and Mars colonization. Sundar Pichai at Google
+                    demonstrates a digital-first approach that enables rapid adaptation. Effective digital leaders often
+                    combine elements of all three styles, adapting based on organizational needs and situational
+                    factors.
+                </div>
+            </div>
+
+            <!-- SLIDE 7: DIGITAL LEADERSHIP CAPABILITIES -->
+            <div class="slide" id="slide-7">
+                <div class="header-icon"><i class="fas fa-user-astronaut"></i></div>
+                <div class="content">
+                    <h2>Digital Leadership Capabilities</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1567299972377-8c7c67c73b80?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Leadership Capabilities Visualization" class="visual-img">
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-bullhorn"></i> <strong>Digital Champions:</strong> Promote technology
+                            adoption</li>
+                        <li><i class="fas fa-compass"></i> <strong>Digital Pioneers:</strong> Explore new technologies
+                        </li>
+                        <li><i class="fas fa-cogs"></i> <strong>Digital Transformers:</strong> Drive digital change
+                            initiatives</li>
+                        <li><i class="fab fa-microsoft"></i> Examples: Microsoft's digital transformation leadership
+                        </li>
+                        <li><i class="fab fa-salesforce"></i> Additional examples: Salesforce's Ohana culture advocates,
+                            Google's tech leads</li>
+                    </ul>
+                </div>
+
+                <div class="speaker-notes">
+                    Digital leadership capabilities define distinct roles within organizations. Digital Champions
+                    advocate for and support technology adoption, often serving as internal influencers who help teams
+                    embrace new tools and processes. Salesforce's Ohana culture advocates exemplify this role. Digital
+                    Pioneers identify and explore emerging technologies, evaluating their potential applications.
+                    Google's tech leads who experiment with new technologies serve in this capacity. Digital
+                    Transformers lead change initiatives, managing the complex process of digital transformation. At
+                    Microsoft, leaders like Satya Nadella embody all three capabilities, championing digital practices,
+                    pioneering cloud-first strategies, and transforming organizational culture to embrace digital-first
+                    approaches. These roles are often distributed across teams in digital organizations rather than
+                    centralized in a single leader.
+                </div>
+            </div>
+
+            <!-- SLIDE 8: MOTIVATIONAL THEORIES APPLICATION -->
+            <div class="slide" id="slide-8">
+                <div class="header-icon"><i class="fas fa-brain"></i></div>
+                <div class="content">
+                    <h2>Motivational Theories Application</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Motivational Theories Visualization" class="visual-img">
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-mountain"></i> <strong>Maslow's Hierarchy:</strong> Self-actualization
+                            through innovation</li>
+                        <li><i class="fas fa-balance-scale"></i> <strong>Herzberg's Two-Factor:</strong> Hygiene factors
+                            & motivators in digital workplace</li>
+                        <li><i class="fas fa-funnel-dollar"></i> <strong>Vroom's Expectancy:</strong> Performance-reward
+                            linkage in digital teams</li>
+                        <li><i class="fab fa-google"></i> Examples: Google's motivational practices</li>
+                        <li><i class="fas fa-book"></i> Additional examples: Valve's handbook for new employees</li>
+                    </ul>
+                </div>
+
+                <div class="speaker-notes">
+                    Applying motivational theories in digital environments requires adaptation to technology-driven
+                    workplaces. Maslow's theory emphasizes self-actualization opportunities through innovation projects
+                    and skill development, which Google provides through their 20% time policy. Herzberg's hygiene
+                    factors include technical infrastructure and work flexibility, while motivators include challenging
+                    projects and recognition. Google's excellent technical infrastructure and challenging projects
+                    exemplify this. Vroom's expectancy theory requires clear performance-reward linkages, particularly
+                    important in digital environments where contributions can be tracked and measured. Valve's employee
+                    handbook describes their unique approach to motivation based on autonomy and purpose. These examples
+                    demonstrate how successful digital companies apply motivational theories in practice.
+                </div>
+            </div>
+
+            <!-- SLIDE 9: MASLOW'S HIERARCHY IN DIGITAL TEAMS -->
+            <div class="slide" id="slide-9">
+                <div class="header-icon"><i class="fas fa-mountain"></i></div>
+                <div class="content">
+                    <h2>Maslow's Hierarchy in Digital Teams</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1542744095-291d1f67b221?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Maslow's Hierarchy Visualization" class="visual-img">
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-bed"></i> <strong>Physiological:</strong> Flexible work arrangements
+                            (Google, Twitter)</li>
+                        <li><i class="fas fa-shield-alt"></i> <strong>Safety:</strong> Job security in digital roles
+                            (Microsoft's employee development)</li>
+                        <li><i class="fas fa-users"></i> <strong>Belonging:</strong> Virtual team connections (Slack,
+                            Microsoft Teams)</li>
+                        <li><i class="fas fa-award"></i> <strong>Esteem:</strong> Recognition in digital platforms
+                            (GitHub contributions, Stack Overflow)</li>
+                        <li><i class="fas fa-rocket"></i> <strong>Self-Actualization:</strong> Innovation projects
+                            (Google's 20%, 3M's 15% time)</li>
+                    </ul>
+                </div>
+
+                <div class="speaker-notes">
+                    In digital teams, Maslow's hierarchy adapts to virtual and technology-enabled environments.
+                    Physiological needs include flexible work arrangements that accommodate diverse lifestyles, as
+                    demonstrated by Google and Twitter offering remote work options. Safety needs encompass job security
+                    in rapidly changing tech fields, addressed by Microsoft's focus on employee development and
+                    reskilling. Belonging is achieved through virtual team connections, online collaboration tools like
+                    Slack and Microsoft Teams, and digital team-building activities. Esteem needs are met through
+                    recognition on digital platforms like GitHub's contribution graphs and Stack Overflow's reputation
+                    system. Self-actualization occurs through innovation projects like Google's 20% time policy and 3M's
+                    15% time, allowing employees to pursue passion projects.
+                </div>
+            </div>
+
+            <!-- SLIDE 10: HERZBERG'S TWO-FACTOR THEORY IN DIGITAL WORKPLACE -->
+            <div class="slide" id="slide-10">
+                <div class="header-icon"><i class="fas fa-balance-scale"></i></div>
+                <div class="content">
+                    <h2>Herzberg's Two-Factor Theory in Digital Workplace</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Herzberg's Two-Factor Theory Visualization" class="visual-img">
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-ban"></i> <strong>Hygiene Factors:</strong> Technical infrastructure,
+                            work-life balance, compensation</li>
+                        <li><i class="fas fa-star"></i> <strong>Motivators:</strong> Challenging projects, growth
+                            opportunities, recognition</li>
+                        <li><i class="fas fa-microchip"></i> <strong>Digital-specific:</strong> Access to cutting-edge
+                            tools, learning platforms</li>
+                        <li><i class="fab fa-atlassian"></i> <strong>Example:</strong> Atlassian's approach to developer
+                            satisfaction</li>
+                        <li><i class="fab fa-netflix"></i> <strong>Additional example:</strong> Netflix's
+                            high-performance culture</li>
+                    </ul>
+                </div>
+
+                <div class="speaker-notes">
+                    Herzberg's theory is particularly relevant in digital workplaces where technical infrastructure is
+                    fundamental. Hygiene factors include reliable hardware/software, high-speed internet, and access to
+                    cutting-edge tools. Atlassian focuses on removing technical obstacles for developers, providing the
+                    best tools and eliminating friction. Work-life balance is crucial as digital work can blur
+                    boundaries between personal and professional life. Netflix exemplifies this with their culture of
+                    "freedom and responsibility," offering unlimited vacation time and focusing on results rather than
+                    hours worked. Motivators include challenging technical projects, opportunities to learn new
+                    technologies, and recognition for technical contributions. Atlassian's ShipIt Days provide
+                    opportunities for innovation and recognition. Netflix's high-performance culture ensures that only
+                    top performers remain, providing intrinsic motivation through peer recognition.
+                </div>
+            </div>
+
+            <!-- SLIDE 11: VROOM'S EXPECTANCY THEORY IN DIGITAL TEAMS -->
+            <div class="slide" id="slide-11">
+                <div class="header-icon"><i class="fas fa-funnel-dollar"></i></div>
+                <div class="content">
+                    <h2>Vroom's Expectancy Theory in Digital Teams</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Vroom's Expectancy Theory Visualization" class="visual-img">
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-running"></i> <strong>Expectancy:</strong> Effort → Performance belief
+                            (GitHub contribution metrics)</li>
+                        <li><i class="fas fa-link"></i> <strong>Instrumentality:</strong> Performance → Reward linkage
+                            (Stack Overflow reputation system)</li>
+                        <li><i class="fas fa-gift"></i> <strong>Valence:</strong> Value of rewards to individual
+                            (personalized incentives)</li>
+                        <li><i class="fas fa-chart-bar"></i> <strong>Digital tools:</strong> Performance tracking &
+                            transparent reward systems</li>
+                        <li><i class="fab fa-spotify"></i> <strong>Example:</strong> Spotify's squad metrics and OKRs
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="speaker-notes">
+                    Vroom's Expectancy Theory is highly applicable in digital environments where performance can be
+                    measured precisely. Expectancy is enhanced when digital tools provide clear feedback on
+                    effort-performance relationships, as seen with GitHub's contribution metrics that visually show
+                    coding activity. Instrumentality benefits from digital transparency in performance tracking and
+                    reward allocation, like Stack Overflow's reputation system that clearly links contributions to
+                    recognition. Valence can be personalized using data analytics to understand individual preferences,
+                    allowing for customized rewards. Spotify uses squad metrics and OKRs (Objectives and Key Results) to
+                    create clear performance-reward linkages. Digital platforms enable real-time performance tracking,
+                    clear goal setting, and transparent reward systems that strengthen all three components of
+                    expectancy theory.
+                </div>
+            </div>
+
+            <!-- SLIDE 12: REFLECTIVE MODELS IN DIGITAL LEADERSHIP -->
+            <div class="slide" id="slide-12">
+                <div class="header-icon"><i class="fas fa-reflect"></i></div>
+                <div class="content">
+                    <h2>Reflective Models in Digital Leadership</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Reflective Models Visualization" class="visual-img">
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-info-circle"></i> <strong>Gibbs' Reflective Cycle:</strong> Description →
+                            Feelings → Evaluation → Analysis → Conclusion → Action Plan</li>
+                        <li><i class="fas fa-user-check"></i> <strong>Schön's Reflective Practice:</strong>
+                            Reflection-in-action & Reflection-on-action</li>
+                        <li><i class="fas fa-sync-alt"></i> <strong>Digital applications:</strong> Feedback systems, 360
+                            reviews, learning analytics</li>
+                        <li><i class="fab fa-amazon"></i> <strong>Example:</strong> Amazon's Day 1 culture and
+                            post-mortems</li>
+                        <li><i class="fab fa-google"></i> <strong>Additional example:</strong> Google's project
+                            post-mortems</li>
+                    </ul>
+                </div>
+
+                <div class="speaker-notes">
+                    Reflective models are essential for continuous improvement in digital leadership. Gibbs' cycle
+                    provides a structured approach to learning from experiences, particularly valuable in fast-paced
+                    digital environments. Schön's concepts of reflection-in-action and reflection-on-action are enhanced
+                    by real-time data and feedback in digital environments. Digital tools facilitate reflection through
+                    automated feedback systems, 360-degree reviews, and learning analytics that provide insights into
+                    leadership effectiveness. Amazon's "Day 1" culture emphasizes continuous experimentation and
+                    learning from failures through post-mortems that are shared company-wide. Google conducts detailed
+                    project post-mortems to extract lessons and improve future initiatives. These models help digital
+                    leaders adapt quickly to changing circumstances.
+                </div>
+            </div>
+
+            <!-- SLIDE 13: GIBBS' REFLECTIVE CYCLE IN LEADERSHIP -->
+            <div class="slide" id="slide-13">
+                <div class="header-icon"><i class="fas fa-redo"></i></div>
+                <div class="content">
+                    <h2>Gibbs' Reflective Cycle in Leadership</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Gibbs' Reflective Cycle Visualization" class="visual-img">
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-clipboard-list"></i> <strong>Description:</strong> What happened in the
+                            digital project? (Airbnb's data-driven approach)</li>
+                        <li><i class="fas fa-heart"></i> <strong>Feelings:</strong> How did the team respond to changes?
+                            (Surveys, sentiment analysis)</li>
+                        <li><i class="fas fa-clipboard-check"></i> <strong>Evaluation:</strong> What worked well/poorly?
+                            (Metrics and KPIs)</li>
+                        <li><i class="fas fa-search"></i> <strong>Analysis:</strong> Why did certain approaches succeed?
+                            (Root cause analysis)</li>
+                        <li><i class="fas fa-lightbulb"></i> <strong>Conclusion:</strong> What could have been done
+                            differently? (Expert review)</li>
+                        <li><i class="fas fa-tasks"></i> <strong>Action Plan:</strong> How to improve next time? (OKRs
+                            and roadmaps)</li>
+                    </ul>
+                </div>
+
+                <div class="speaker-notes">
+                    Gibbs' Reflective Cycle provides a systematic approach for digital leaders to learn from
+                    experiences. In digital contexts, the description phase can leverage data analytics to understand
+                    what actually happened, as Airbnb does with their data-driven approach to understanding user
+                    behavior. Feelings can be captured through digital surveys and sentiment analysis tools. Evaluation
+                    benefits from quantitative metrics available in digital environments like KPIs and performance
+                    dashboards. Analysis can use data visualization tools to understand cause-effect relationships and
+                    conduct root cause analysis. The conclusion phase can be enhanced with AI insights and expert
+                    review. The action plan can be integrated with project management tools and OKR systems for
+                    implementation and tracking.
+                </div>
+            </div>
+
+            <!-- SLIDE 14: EVIDENCE-BASED RECOMMENDATIONS -->
+            <div class="slide" id="slide-14">
+                <div class="header-icon"><i class="fas fa-clipboard-check"></i></div>
+                <div class="content">
+                    <h2>Evidence-Based Recommendations</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Recommendations Visualization" class="visual-img">
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-layer-group"></i> <strong>Hybrid management approach:</strong> Systems +
+                            Behavioral (Spotify model)</li>
+                        <li><i class="fas fa-user-friends"></i> <strong>Leadership development:</strong>
+                            Transformational + Participative (Microsoft approach)</li>
+                        <li><i class="fas fa-hand-holding-heart"></i> <strong>Motivation strategy:</strong> Intrinsic +
+                            Extrinsic rewards (Google's approach)</li>
+                        <li><i class="fas fa-clipboard"></i> <strong>Reflection practice:</strong> Regular
+                            self-assessment using digital tools (Amazon post-mortems)</li>
+                        <li><i class="fas fa-route"></i> <strong>Implementation roadmap:</strong> Phased approach with
+                            metrics</li>
+                    </ul>
+                </div>
+
+                <div class="speaker-notes">
+                    Based on our analysis, we recommend a hybrid management approach combining systems integration with
+                    behavioral focus to ensure both efficiency and employee engagement, similar to Spotify's squad
+                    model. For leadership development, combine transformational inspiration with participative
+                    decision-making to leverage distributed expertise in technical teams, as demonstrated by Microsoft's
+                    transformation under Satya Nadella. Motivation strategies should balance intrinsic factors
+                    (meaningful work, growth) with extrinsic rewards (compensation, recognition), following Google's
+                    approach. Regular reflection practices using digital tools like Amazon's post-mortems will enable
+                    continuous improvement. Create an implementation roadmap with clear metrics to track progress and
+                    make adjustments as needed.
+                </div>
+            </div>
+
+            <!-- SLIDE 15: CONCLUSION AND KEY TAKEAWAYS -->
+            <div class="slide" id="slide-15">
+                <div class="header-icon"><i class="fas fa-award"></i></div>
+                <div class="content">
+                    <h2>Conclusion and Key Takeaways</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Conclusion Visualization" class="visual-img">
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-sync-alt"></i> <strong>Digital-led management</strong> requires adaptive
+                            approaches (Netflix model)</li>
+                        <li><i class="fas fa-user-tie"></i> <strong>Leadership</strong> must combine multiple styles and
+                            capabilities (Microsoft transformation)</li>
+                        <li><i class="fas fa-hand-holding-heart"></i> <strong>Motivation</strong> needs both
+                            technological and human-centered solutions (Google practices)</li>
+                        <li><i class="fas fa-reflect"></i> <strong>Reflection</strong> enables continuous improvement
+                            (Amazon post-mortems)</li>
+                        <li><i class="fas fa-puzzle-piece"></i> <strong>Success</strong> requires aligning management,
+                            motivation, and reflection (Integrated approach)</li>
+                    </ul>
+                </div>
+
+                <div class="speaker-notes">
+                    In conclusion, effective digital leadership requires a sophisticated understanding of how management
+                    approaches, leadership styles, motivational theories, and reflective practices interact. The most
+                    successful digital organizations like Netflix demonstrate the need for adaptive approaches.
+                    Microsoft's transformation under Satya Nadella shows how leadership must combine multiple styles and
+                    capabilities. Google's practices exemplify how motivation needs both technological and
+                    human-centered solutions. Amazon's culture of continuous improvement through post-mortems shows how
+                    reflection enables adaptation. The dynamic nature of digital environments makes continuous
+                    reflection and adaptation essential for sustained success. The integrated approach that aligns
+                    management, motivation, and reflection is the key to building high-performing digital teams.
+                </div>
+            </div>
+
+            <!-- SLIDE 16: REFERENCES -->
+            <div class="slide" id="slide-16">
+                <div class="header-icon"><i class="fas fa-book"></i></div>
+                <div class="content">
+                    <h2>References (Harvard Style)</h2>
+                    <div class="visualization">
+                        <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="References Visualization" class="visual-img">
+                    </div>
+                    <ul>
+                        <li><i class="fas fa-book"></i> BEAMES, C. (2019) How to Manage Your Workforce in the Digital
+                            Age</li>
+                        <li><i class="fas fa-book"></i> HUCZYNSKI, A. and BUCHANAN, D. (2013) Organisational Behaviour
+                        </li>
+                        <li><i class="fas fa-book"></i> MULLINS, L.J. (2016) Management and Organisational Behaviour
+                        </li>
+                        <li><i class="fas fa-book"></i> RASKINO, M. and WALLER, G. (2015) Digital to the Core</li>
+                        <li><i class="fas fa-book"></i> YUKI, G. and GARDNER, W.L. (2019) Leadership in Organizations
+                        </li>
+                        <li><i class="fas fa-newspaper"></i> HARVARD BUSINESS REVIEW (2020) "How Spotify, Netflix and
+                            Others Successfully Use Different Management Approaches"</li>
+                        <li><i class="fas fa-file-alt"></i> NETFLIX (2018) "Culture: Freedom & Responsibility"</li>
+                        <li><i class="fas fa-ellipsis-h"></i> Additional sources to be added based on research</li>
+                    </ul>
+                </div>
+
+                <div class="speaker-notes">
+                    Our recommendations are grounded in established organizational behavior and leadership literature,
+                    adapted for digital environments. These sources provide the theoretical foundation for our proposed
+                    approaches. Additional references should be added based on specific case studies and examples used
+                    in the presentation. Remember to include in-text citations in your speaker notes where specific
+                    theories or examples are discussed. The Harvard-style references ensure academic rigor in our
+                    analysis.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
